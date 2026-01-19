@@ -6,6 +6,7 @@
     <title>natia's project</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script defer src="./js/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,36 +89,7 @@
     </section>
     <section class="section4">
         <h5 class="h5">Popular Hotels For Booking</h5>
-        <div class="main-div3">
-            <div class="div3">
-                <img src="./images/Blog Image.png" alt="">
-                <h6 class="h6">Luxury City Hotel in Prague</h6>
-                <p class="p-el">A perfect place to relax, featuring modern comfort and a peaceful atmosphere.</p>
-                <h6 class="price">200$ /per night</h6>
-                <div class="i-el">
-                    <i class="fa-solid fa-circle-chevron-down"></i>
-                </div>
-                
-            </div>
-            <div class="div3">
-                <img src="./images/Blog Image (1).png" alt="">
-                <h6 class="h6">Premium Comfort Residence in Rome</h6>
-                <p class="p-el">Enjoy a comfortable stay with modern amenities and a prime city location.</p>
-                <h6 class="price">170$ /per night</h6>
-                <div class="i-el">
-                    <i class="fa-solid fa-circle-chevron-down"></i>
-                </div>
-            </div>
-            <div class="div3">
-                <img src="./images/Blog Image (2).png" alt="">
-                <h6 class="h6">Eco Garden Resort in Madrid</h6>
-                <p class="p-el">A refined stay combining modern design, comfort, and an exceptional atmosphere.</p>
-                <h6 class="price">220$ /per night</h6>
-                <div class="i-el">
-                    <i class="fa-solid fa-circle-chevron-down"></i>
-                </div>
-
-            </div>
+        <div class="main-div3" id="hotels-container">
         </div>
     </section>
 
@@ -155,6 +127,10 @@
             </div>
         </div>
     </section>
+    <div class="cookie-container" id="cookieBox">
+    <p>We use cookies to ensure you get the best experience on our website.</p>
+    <button id="acceptBtn">Accept</button>
+    </div>
     <button id="topBtn" class="top-btn">Top</button>
 
 </body>
