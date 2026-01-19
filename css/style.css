@@ -416,12 +416,9 @@ li a:hover{
     padding: 30px;
     gap: 30px;
   }
-
   .ul-elements.active {
     right: 0;
   }
-
-
   .main-div {
     flex-direction: column;
     padding: 20px;
@@ -583,4 +580,18 @@ li a:hover{
   .textt {
     top: 50%;
   }
+}
+.top-btn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #090944;
+    padding: 10px;
+    z-index: 99;
+    cursor: pointer;
 }
