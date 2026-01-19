@@ -15,6 +15,12 @@
   max-width: 100%;
   z-index: 1000;
 }
+.a-el{
+  color: #071030;
+}
+.a-el:hover{
+  color: #5525c5;
+}
 .ul-elements {
   display: flex;
   justify-content: center;
@@ -61,6 +67,7 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: 15px;
+  transition: linear 0.2s;
 }
 button:hover {
   background-color: #9bb7d3;
@@ -117,6 +124,7 @@ img {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: 15px;
+  transition: linear 0.2s;
 }
 
 .h4 {
@@ -187,11 +195,11 @@ img {
   font-weight: 800;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  transition: linear 0.2s;
 }
 .register-submit:hover {
   background-color: #9bb7d3;
   color: #040437;
-  border: 2px solid rgb(5, 5, 62);
 }
 .h5 {
   font-size: 40px;
@@ -264,9 +272,10 @@ img {
   text-align: center;
   margin: 0 auto;
   padding: 5px;
+  transition: linear 0.2s;
 }
 .i-el:hover {
-  background-color: #c9dff3;
+  background-color: #a5c8e7;
   color: #040437;
 }
 .hh {
@@ -293,6 +302,7 @@ img {
   font-size: 18px;
   text-align: center;
   margin-bottom: 20px;
+  transition: linear 0.2s;
 }
 .textt {
   position: absolute;
@@ -316,8 +326,12 @@ img {
   height: auto;
   display: block;
 }
+.section5{
+  margin: 100px 0px;
+}
 .section6 {
-  margin-top: 50px;
+  margin-top: 100px;
+  background-color: rgb(224, 224, 224);
 }
 .quick-links {
   display: flex;
@@ -329,7 +343,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 150px;
-  margin: 40px 0px;
+  padding: 30px;
 }
 
 .ul-el2 {
@@ -370,6 +384,13 @@ img {
 .burger {
   display: none;
 }
+li a{
+  color: #040437;
+  transition: linear 0.2s;
+}
+li a:hover{
+  color: #5525c5;
+}
 
 @media (max-width: 768px) {
   .navigation {
@@ -400,15 +421,6 @@ img {
     right: 0;
   }
 
-  .burger {
-    cursor: pointer;
-    font-size: 24px;
-    color: #040437;
-  }
-
-  .burger:hover {
-    color: #4a8ecd;
-  }
 
   .main-div {
     flex-direction: column;
@@ -559,6 +571,7 @@ img {
   .register-form {
     margin: 0 15px 30px 15px;
     padding: 15px;
+
   }
   .desc {
     font-size: 20px;
